@@ -18,13 +18,6 @@
 }
 
 
-/* .sidebar.menu-hover {
-    width: 230px !important;
-} */
-
-
-/* JS MENU */
-
 .top-header-icon {
     color: white !important;
     padding: 0px 7px;
@@ -42,7 +35,7 @@
     left: 0;
     width: 170px;
     height: 100%;
-    transition: 0.3s !important;
+    /* transition: 0.3s !important; */
     transition-property: left;
     overflow-y: auto;
 }
@@ -58,7 +51,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-style: normal !important;
-    transition: 0.1s;
+    /* transition: 0.1s; */
 }
 
 .sidebar a:hover {
@@ -107,6 +100,11 @@ a#icon-menu {
     .content {
         margin-left: 0px !important;
     }
+
+    .admin.menu-setting .sidebar a span,
+.admin.menu-setting .profile_info {
+    display: block;
+}
 }
 
 
