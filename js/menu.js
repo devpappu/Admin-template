@@ -1,15 +1,8 @@
-$("#icon-menu").click(function() {
+$("#icon-menu").click(function () {
     $(".admin").toggleClass("menu-setting");
 });
 
 
-// $(".side-nav-menu").hover(function() {
-//     $(".side-nav-menu").toggleClass("menu-hover");
-// });
-
-
-
-$("#p").click(function() {
-    console.log("click")
-
+$("#user-content-show").click(function () {
+    $(".user-content").toggleClass("user-content-show-js");
 });
