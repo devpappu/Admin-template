@@ -1,0 +1,128 @@
+/* JS MENU */
+
+.admin.menu-setting .sidebar {
+    width: 68px;
+}
+
+.admin.menu-setting .content {
+    margin-left: 67px
+}
+
+.admin.menu-setting .sidebar a span,
+.admin.menu-setting .profile_info {
+    display: none;
+}
+
+.admin.menu-setting .sidebar a {
+    padding-left: 22px;
+}
+
+
+/* .sidebar.menu-hover {
+    width: 230px !important;
+} */
+
+
+/* JS MENU */
+
+.top-header-icon {
+    color: white !important;
+    padding: 0px 7px;
+}
+
+
+/* Start Sidebar*/
+
+.sidebar {
+    z-index: 1;
+    top: 0;
+    margin-top: 57px;
+    padding-top: 14px;
+    position: fixed;
+    left: 0;
+    width: 170px;
+    height: 100%;
+    transition: 0.3s !important;
+    transition-property: left;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    font-size: 14px;
+    color: #363940 !important;
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 25px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: normal !important;
+    transition: 0.1s;
+}
+
+.sidebar a:hover {
+    color: black;
+    font-size: 15px;
+    background-color: #eaeff3;
+    padding-left: 24px;
+}
+
+a#icon-menu {
+    color: white;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.sidebar i {
+    padding-right: 10px;
+}
+
+.top-header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.admin-name {
+    color: white;
+}
+
+
+/* End Sidebar*/
+
+
+/* Start header css on phone */
+
+@media screen and (max-width: 780px) {
+    span.admin-name {
+        display: none;
+    }
+    .sidebar a {
+        padding-left: 20px !important;
+    }
+    .admin.menu-setting .sidebar {
+        width: 0px !important;
+    }
+    .content {
+        margin-left: 0px !important;
+    }
+}
+
+
+/* End header css on phone */
+
+
+/* user-content load on click */
+
+.user-content {
+    display: none;
+}
+
+.user-content.user-content-show-js {
+    display: block !important;
+    z-index: 5;
+}
+
+
+/* End user-content load on click */
