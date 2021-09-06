@@ -154,6 +154,17 @@
 
         </div>
     </div>
+                
+     <script>
+     $(document).ready(function(){
+    if (window.matchMedia('screen and (max-width: 768px)').matches) {
+        $(".admin").hide();;
+         $("#icon-menu").click(function(){
+        $(".admin").toggle();
+       });
+    }
+     });
+     </script>
 
 <script type="text/javascript" src="js/menu.js"></script>
 
